@@ -1,65 +1,35 @@
-﻿# D99：[CC1101](https://github.com/OS-Q/D99)
-
+﻿# [433MHz](https://github.com/OS-Q/D99)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
-
-#### 归属短距通道：[W15](https://github.com/OS-Q/W15)
-
+#### 归属无线管道：[W15](https://github.com/OS-Q/W15)
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+### [设备描述](https://github.com/OS-Q/D99/wiki) 
 
-## [设备描述](https://github.com/OS-Q/D99/wiki) 
+支持频段：387-464 MHz
+调制方式：FSK/GFSK/OOK
+通信接口：SPI interface
 
-TI公司出品的工作在低于1GHz频段的无线数传芯片
+### [设备资源](https://github.com/OS-Q/D99) 
 
+- [资源](src/)
+- [文档](docs/)
+- [工程](project/)
 
-### [资源](OS-Q/)
+### [设备相关](https://github.com/OS-Q/D99) 
 
-#### [文档资料](docs/)
+* W15：[无线管道](https://github.com/OS-Q/W15)
+	* D99：[433MHz](https://github.com/OS-Q/D99)
+	* D100：[915MHz](https://github.com/OS-Q/D100)
+	* D101：[LoRa](https://github.com/OS-Q/D101)
+	* D102：[NULL](https://github.com/OS-Q/D102)
+	* D103：[NULL](https://github.com/OS-Q/D103)
+	* D104：[NULL](https://github.com/OS-Q/D104)
+	* D105：[NULL](https://github.com/OS-Q/D105)
 
-主要的芯片手册和参考设计
-
-#### [工程代码](project/)
-
-包括软件工程文件
-
----
-
-- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
-
-- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
-
-## [同级设备](https://github.com/OS-Q/D99/wiki) 
-
-#### -> D99：[CC1101](https://github.com/OS-Q/D99)
-
-TI公司出品的工作在低于1GHz频段的无线数传芯片
-
-#### D100：[SI4432](https://github.com/OS-Q/D100)
-
-Silicon Labs公司推出集成度、低功耗、多频段无线收发芯片，最大功率可以到20dBm（100mw），接收灵敏度可以到-121dbm
-
-#### D101：[SX1278](https://github.com/OS-Q/D101)
-
-Semtech SX1278是半双工传输的低中频收发器，包含LoRa调制，SX1278支持的频段为137-525MHz
-
-#### D102：[NULL](https://github.com/OS-Q/D102)
+### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/D99)
+####  2019-5-9
 
 
 
-#### D103：[NULL](https://github.com/OS-Q/D103)
 
-
-
-#### D104：[NULL](https://github.com/OS-Q/D104)
-
-
-
-#### D105：[NULL](https://github.com/OS-Q/D105)
-
-
-
----
-
-####  © qitas@qitas.cn
-###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2019-1-19
 
