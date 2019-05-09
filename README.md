@@ -1,9 +1,11 @@
-﻿# [433MHz](https://github.com/OS-Q/D99)
+﻿# [433MHz管道](https://github.com/OS-Q/D99)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 #### 归属无线管道：[W15](https://github.com/OS-Q/W15)
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 ### [设备描述](https://github.com/OS-Q/D99/wiki) 
+
+主要是通信器件，实现相关接口的归一接入，数据的调制发送
 
 关键指标：
 
@@ -28,10 +30,10 @@ Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 	* D99：[433MHz](https://github.com/OS-Q/D99)
 	* D100：[915MHz](https://github.com/OS-Q/D100)
 	* D101：[LoRa](https://github.com/OS-Q/D101)
-	* D102：[NULL](https://github.com/OS-Q/D102)
-	* D103：[NULL](https://github.com/OS-Q/D103)
-	* D104：[NULL](https://github.com/OS-Q/D104)
-	* D105：[NULL](https://github.com/OS-Q/D105)
+	* D102：[2.4GHz](https://github.com/OS-Q/D102)
+	* D103：[5.8GHz](https://github.com/OS-Q/D103)
+	* D104：[RFID](https://github.com/OS-Q/D104)
+	* D105：[FM](https://github.com/OS-Q/D105)
 
 ### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/D99)
 ####  2019-5-9
