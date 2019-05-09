@@ -5,9 +5,16 @@
 Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 ### [设备描述](https://github.com/OS-Q/D99/wiki) 
 
-支持频段：387-464 MHz
-调制方式：FSK/GFSK/OOK
-通信接口：SPI interface
+关键指标：
+
+* 支持频段：387-464 MHz
+* 调制方式：FSK/GFSK/OOK
+* 通信接口：SPI interface
+
+调制芯片：
+
+* [CC1101](http://www.ti.com.cn/product/cn/CC1101)
+* [Si4432](https://www.silabs.com/documents/public/data-sheets/Si4430-31-32.pdf)
 
 ### [设备资源](https://github.com/OS-Q/D99) 
 
