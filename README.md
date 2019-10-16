@@ -1,44 +1,19 @@
-﻿# [433MHz管道](https://github.com/OS-Q/D99)
+﻿# [ADC](https://github.com/OS-Q/D48)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
-#### 归属无线管道：[W15](https://github.com/OS-Q/W15)
+
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
-Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
-### [设备描述](https://github.com/OS-Q/D99/wiki) 
 
-主要是通信器件，实现相关接口的归一接入，数据的调制发送
+[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
 
-关键指标：
+### [库描述](https://github.com/OS-Q/D48/wiki) 
 
-* 支持频段：387-464 MHz
-* 调制方式：FSK/GFSK/OOK
-* 通信接口：SPI interface
+[ADC](https://github.com/OS-Q/D48)基于arduino平台构建的功能库
 
-调制芯片：
+### [库资源](https://github.com/OS-Q/D48) 
 
-* [CC1101](http://www.ti.com.cn/product/cn/CC1101)
-* [Si4432](https://www.silabs.com/documents/public/data-sheets/Si4430-31-32.pdf)
+* [文档](docs/)
+* [资源](src/)
+* [示例](examples/)
 
-### [设备资源](https://github.com/OS-Q/D99) 
-
-- [资源](src/)
-- [文档](docs/)
-- [工程](project/)
-
-### [设备相关](https://github.com/OS-Q/D99) 
-
-* W15：[无线管道](https://github.com/OS-Q/W15)
-	* D99：[433MHz](https://github.com/OS-Q/D99)
-	* D100：[915MHz](https://github.com/OS-Q/D100)
-	* D101：[LoRa](https://github.com/OS-Q/D101)
-	* D102：[2.4GHz](https://github.com/OS-Q/D102)
-	* D103：[5.8GHz](https://github.com/OS-Q/D103)
-	* D104：[RFID](https://github.com/OS-Q/D104)
-	* D105：[FM](https://github.com/OS-Q/D105)
-
-### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/D99)
-####  2019-5-9
-
-
-
-
-
+### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/D48)
+####  2019-10-2016
